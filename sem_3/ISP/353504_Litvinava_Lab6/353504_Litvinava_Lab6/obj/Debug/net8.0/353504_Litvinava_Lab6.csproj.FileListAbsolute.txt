@@ -1,0 +1,14 @@
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\bin\Debug\net8.0\353504_Litvinava_Lab6.exe
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\bin\Debug\net8.0\353504_Litvinava_Lab6.deps.json
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\bin\Debug\net8.0\353504_Litvinava_Lab6.runtimeconfig.json
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\bin\Debug\net8.0\353504_Litvinava_Lab6.dll
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\bin\Debug\net8.0\353504_Litvinava_Lab6.pdb
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.AssemblyInfoInputs.cache
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.AssemblyInfo.cs
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.csproj.CoreCompileInputs.cache
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.dll
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\refint\353504_Litvinava_Lab6.dll
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.pdb
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\353504_Litvinava_Lab6.genruntimeconfig.cache
+C:\Users\tlitv\!Labs\353504_Litvinava_Lab6\353504_Litvinava_Lab6\obj\Debug\net8.0\ref\353504_Litvinava_Lab6.dll

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:models="clr-namespace:UI.ViewModels"
+            xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="UI.Pages.SongDetails"
+             x:DataType="models:SongDetailsViewModel"
+             Title="SongDetails">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+        EventName="Loaded"
+        Command="{Binding UpdateGroupListCommand}" />
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout>
+        <VerticalStackLayout IsVisible="{Binding IsNotEditing}">
+            <Label Text="{Binding Song.Name, StringFormat='Name: {0}'}"/>
+            <Label Text="{Binding Song.Description, StringFormat='Description: {0}'}"/>
+            <Label Text="{Binding Song.Duration, StringFormat='Duration: {0}'}"/>
+            <Label Text="{Binding Song.PlaceInCharts, StringFormat='Place in charts: {0}'}"/>
+            <Label Text="{Binding Song.Id, StringFormat='Id: {0}'}"/>
+        </VerticalStackLayout>
+        
+        <VerticalStackLayout IsVisible="{Binding IsEditing}">
+            <Entry Text="{Binding Song.Name, StringFormat='Name: {0}'}"/>
+            <Entry Text="{Binding Song.Description, StringFormat='Description: {0}'}"/>
+            <Entry Text="{Binding Song.Duration, StringFormat='Duration: {0}'}"/>
+            <Entry Text="{Binding Song.PlaceInCharts, StringFormat='Place in charts: {0}'}" IsEnabled="False"/>
+            <Entry Text="{Binding Song.Id, StringFormat='Id: {0}'}" IsEnabled="False"/>
+            <Picker ItemsSource="{Binding Artists}" 
+                SelectedItem="{Binding SelectedArtist}" 
+                Title="Select artist">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                     EventName="SelectedIndexChanged"
+                     Command="{Binding UpdateMemberListCommand }" />
+                </Picker.Behaviors>
+            </Picker>
+        </VerticalStackLayout>
+
+        <Button Text="Edit Song" IsVisible="{Binding IsNotEditing}">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior
+            EventName="Clicked"
+            Command="{Binding SetEditingCommand}"/>
+            </Button.Behaviors>
+        </Button>
+
+        <Button Text="Submit" IsVisible="{Binding IsEditing}">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="Clicked"
+                    Command="{Binding UpdateSongCommand}"/>
+            </Button.Behaviors>
+        </Button>
+
+        <Label x:Name="SuccessMessage" Text="Song was created!" IsVisible="{Binding IsSuccess}"/>
+    </VerticalStackLayout>
+</ContentPage>

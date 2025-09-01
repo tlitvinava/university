@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Pages.NewArtist"
+             Title="NewArtist">
+    <VerticalStackLayout>
+        <Label Text="Creating artist page:" FontSize="Large"/>
+        <Entry x:Name="ArtistName" Text="Name"/>
+        <DatePicker x:Name="ArtistBirthDay"/>
+        <Entry x:Name="ArtistGenre" Text="Genre"/>
+
+        <Button Text="Create" Clicked="Button_Clicked"/>
+
+        <Label x:Name="SuccessMessage" Text="Artist was created!" IsVisible="False"/>
+
+    </VerticalStackLayout>
+</ContentPage>

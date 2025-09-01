@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "353504_Litvinava_Lab6", "353504_Litvinava_Lab6\353504_Litvinava_Lab6.csproj", "{2CDEE8A3-BE31-42F5-8775-85F429447EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{76D7BE5D-838B-4FAA-9972-72A0CB6F7B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CDEE8A3-BE31-42F5-8775-85F429447EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDEE8A3-BE31-42F5-8775-85F429447EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDEE8A3-BE31-42F5-8775-85F429447EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDEE8A3-BE31-42F5-8775-85F429447EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D7BE5D-838B-4FAA-9972-72A0CB6F7B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D7BE5D-838B-4FAA-9972-72A0CB6F7B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D7BE5D-838B-4FAA-9972-72A0CB6F7B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D7BE5D-838B-4FAA-9972-72A0CB6F7B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4156C76-9117-490F-BFFE-19410A2C416D}
+	EndGlobalSection
+EndGlobal

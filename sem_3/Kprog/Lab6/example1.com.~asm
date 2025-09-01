@@ -1,0 +1,24 @@
+.8086
+.model small
+org 100h
+.data
+string db 'happy new year!$'
+.code
+start:
+mov ax, @data
+mov ds, ax
+mov es, ax
+
+xor ax,ax
+lea dx, string
+mov ah, 9
+int 21h
+
+mov ah, 4Ch
+int 21h
+
+end start
+
+
+
+; [SOURCE]: C:\Users\tlitv\source\repos\Kprog\Lab6\example1.asm

@@ -1,0 +1,102 @@
+.model small
+.stack 100h
+.data
+filename db 32 dup(0)           ; Буфер для имени файла
+program_name db 256 dup(0)      ; Буфер для имени программы
+open_error_msg db 'Error: Could not open the specified file.$'
+read_error_msg db 'Error: Could not read the program name.$'
+run_error_msg db 'Error: Could not run the specified program.$'
+
+.code
+start:
+cld
+mov bp, sp
+mov si, es:[80h]                ; Получаем адрес строки команд
+mov di, offset filename          ; Указатель на буфер для имени файла
+xor cx, cx                      ; Счетчик для длины имени файла
+
+; Пропускаем имя исполняемого файла
+next_param:
+mov al, [si]                    ; Считываем символ
+cmp al, 0Dh                     ; Проверка на конец строки (Carriage Return)
+je param_ended                  ; Если конец строки - переходим к завершению
+cmp al, ' '                     ; Проверка на пробел
+je skip_space                   ; Если пробел, переходим к следующему символу
+
+; Если это не пробел и не конец строки, начинаем считывать имя файла
+mov [di], al                    ; Копируем символ в буфер
+inc di                          ; Увеличиваем указатель
+inc cx                          ; Увеличиваем счетчик
+jmp next_param                  ; Переходим к следующему символу
+
+skip_space:
+inc si                          ; Пропускаем пробел
+jmp next_param                  ; Переходим к следующему символу
+
+param_ended:
+mov byte ptr [di], 0           ; Нуль-терминатор для строки
+mov di, offset filename
+
+; Вывод имени файла перед его открытием (отладка)
+mov dx, offset filename
+mov ah, 09h
+int 21h                        ; Вывод имени файла для отладки
+
+; Открытие текстового файла
+mov ah, 3Dh                    ; Функция открытия файла
+lea dx, filename                ; Имя файла
+mov al, 0                      ; Открыть только на чтение
+int 21h
+jc open_error                   ; Проверка на ошибку
+mov bx, ax                     ; Хранение дескриптора файла
+
+; Чтение имени программы из файла
+mov ah, 3Fh                    ; Функция чтения из файла
+lea dx, program_name            ; Буфер для имени программы
+mov cx, 256                     ; Максимальная длина имени
+int 21h
+jc read_error                   ; Проверка на ошибку
+
+; Добавление нуль-терминатора
+mov byte ptr [di], 0           ; Используем di для записи нуль-терминатора
+
+; Запуск программы
+mov ax, 4B00h                  ; Функция запуска программы
+lea dx, program_name            ; Имя программы для запуска
+int 21h
+
+; Проверка на ошибки
+jc catch_run_error
+
+jmp exit
+
+open_error:
+; Обработка ошибки открытия файла
+mov dx, offset open_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+read_error:
+; Обработка ошибки чтения
+mov dx, offset read_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+catch_run_error:
+; Обработка ошибки при запуске
+mov dx, offset run_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+exit:
+mov ax, 4C00h                  ; Завершение программы
+int 21h
+
+end start
+
+
+
+; [SOURCE]: C:\Users\tlitv\source\repos\Kprog\Lab6\again.asm

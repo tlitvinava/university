@@ -1,0 +1,1 @@
+C:\Users\tlitv\source\university_labs\sem_4\ISP\Lab7\UI\UI.csproj;x64

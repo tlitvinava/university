@@ -1,0 +1,28 @@
+< THE SYMBOL TABLE >  again.com  --  emu8086 assembler version: 4.05 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+CODE                     	00100     	-1        	LABEL     	(NOSEG)   
+START                    	00100     	-1        	LABEL     	(NOSEG)   
+NEXT_PROGRAM             	00114     	-1        	LABEL     	(NOSEG)   
+NO_MORE_PROGRAMS         	00140     	-1        	LABEL     	(NOSEG)   
+EXIT                     	00144     	-1        	LABEL     	(NOSEG)   
+OPEN_ERROR               	00149     	-1        	LABEL     	(NOSEG)   
+READ_ERROR               	00152     	-1        	LABEL     	(NOSEG)   
+RUN_ERROR                	0015B     	-1        	LABEL     	(NOSEG)   
+READ_COMMANDLINE         	00164     	-1        	NEAR      	(NOSEG)   
+READ_LOOP                	00172     	-1        	LABEL     	(NOSEG)   
+WRITE_SYMBOL             	00181     	-1        	LABEL     	(NOSEG)   
+END_READ                 	00185     	-1        	LABEL     	(NOSEG)   
+FILENAME                 	00186     	1         	VAR       	(NOSEG)   
+PROGRAM_PATH             	001EA     	1         	VAR       	(NOSEG)   
+OPEN_ERROR_MSG           	0024E     	1         	VAR       	(NOSEG)   
+READ_ERROR_MSG           	00278     	1         	VAR       	(NOSEG)   
+RUN_ERROR_MSG            	002A0     	1         	VAR       	(NOSEG)   
+EPB                      	002CC     	2         	VAR       	(NOSEG)   
+COMMANDLINE              	002DA     	1         	VAR       	(NOSEG)   
+_LOCATION_COUNTER__N1_L6A	002DE     	-1        	LABEL     	(NOSEG)   
+===================================================================================================
+[ 15.12.2024  --  23:20:46 ] 
+< END >
+ 

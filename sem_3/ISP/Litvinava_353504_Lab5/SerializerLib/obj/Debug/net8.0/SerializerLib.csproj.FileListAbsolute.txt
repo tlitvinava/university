@@ -1,0 +1,15 @@
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.deps.json
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.dll
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.pdb
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\bin\Debug\net8.0\Litvinava_353504_Lab5.Domain.dll
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\bin\Debug\net8.0\Litvinava_353504_Lab5.Domain.pdb
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.AssemblyReference.cache
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfoInputs.cache
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfo.cs
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.CoreCompileInputs.cache
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.CopyComplete
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.dll
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\refint\SerializerLib.dll
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.pdb
+C:\Users\tlitv\!Labs\Litvinava_353504_Lab5\SerializerLib\obj\Debug\net8.0\ref\SerializerLib.dll

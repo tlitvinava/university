@@ -1,0 +1,36 @@
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab_8\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab8\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+C:\Users\tlitv\!Labs\Lab8\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll

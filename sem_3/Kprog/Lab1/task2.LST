@@ -1,0 +1,35 @@
+  ADDR B1 B2 B3 B4 C:\Users\tlitv\source\repos\КПрог\Lab1\task2.asm PAGE       1
+
+  C000 CE FF FF     ldx #$ffff
+  C003 18 CE FF FF  ldy #$ffff
+  C007 FF 80 00     stx $8000
+  C00A 18 FF 80 02  sty $8002
+
+  C00E B6 80 01     ldaa $8001
+  C011 F6 80 03     ldab $8003
+  C014 1B           aba
+  C015 B7 80 01     staa $8001
+
+  C018 B6 80 00     ldaa $8000
+  C01B F6 80 02     ldab $8002
+
+  C01E F9 80 00     adcb $8000
+  C021 F7 80 00     stab $8000
+
+  C024 B6 80 02     ldaa $8002
+  C027 F6 80 01     ldab $8001
+
+  C02A 86 00        ldaa #0
+  C02C 89 00        adca #0
+  C02E B7 80 00     staa $8000
+
+
+
+
+
+
+
+
+
+
+

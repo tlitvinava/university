@@ -1,0 +1,182 @@
+EMU8086 GENERATED LISTING. MACHINE CODE <- SOURCE.
+ 
+again.exe -- emu8086 assembler version: 4.05  
+ 
+[ 15.12.2024  --  1:33:05 ] 
+ 
+===================================================================================================
+[LINE]     LOC: MACHINE CODE                          SOURCE
+===================================================================================================
+ 
+[   1]        :                                       .model small
+[   2]        :                                       .stack 100h
+[   3]        :                                       .data
+[   4]    0100: 00 00 00 00 00 00 00 00 00 00 00 00   filename db 32 dup(0)           ; Буфер для имени файла
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00             
+[   5]    0120: 00 00 00 00 00 00 00 00 00 00 00 00   program_name db 256 dup(0)      ; Буфер для имени программы
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00 00 00 00 00 00 00 00 00 
+                00 00 00 00                         
+[   6]    0220: 45 72 72 6F 72 3A 20 43 6F 75 6C 64   open_error_msg db 'Error: Could not open the specified file.$'
+                20 6E 6F 74 20 6F 70 65 6E 20 74 68 
+                65 20 73 70 65 63 69 66 69 65 64 20 
+                66 69 6C 65 2E 24                   
+[   7]    024A: 45 72 72 6F 72 3A 20 43 6F 75 6C 64   read_error_msg db 'Error: Could not read the program name.$'
+                20 6E 6F 74 20 72 65 61 64 20 74 68 
+                65 20 70 72 6F 67 72 61 6D 20 6E 61 
+                6D 65 2E 24                         
+[   8]    0272: 45 72 72 6F 72 3A 20 43 6F 75 6C 64   run_error_msg db 'Error: Could not run the specified program.$'
+                20 6E 6F 74 20 72 75 6E 20 74 68 65 
+                20 73 70 65 63 69 66 69 65 64 20 70 
+                72 6F 67 72 61 6D 2E 24             
+[   9]        :                                       
+[  10]        :                                       .code
+[  11]    02A0:                                       start:
+[  12]    02A0: FC                                    cld
+[  13]    02A1: 8B EC                                 mov bp, sp
+[  14]    02A3: 26 8B 36 80 00                        mov si, es:[80h]                ; Получаем адрес строки команд
+[  15]    02A8: BF 00 00                              mov di, offset filename          ; Указатель на буфер для имени файла
+[  16]    02AB: 33 C9                                 xor cx, cx                      ; Счетчик для длины имени файла
+[  17]        :                                       
+[  18]        :                                       ; Пропускаем имя исполняемого файла
+[  19]    02AD:                                       next_param:
+[  20]    02AD: 8A 04                                 mov al, [si]                    ; Считываем символ
+[  21]    02AF: 3C 0D                                 cmp al, 0Dh                     ; Проверка на конец строки (Carriage Return)
+[  22]    02B1: 74 0D                                 je param_ended                  ; Если конец строки - переходим к завершению
+[  23]    02B3: 3C 20                                 cmp al, ' '                     ; Проверка на пробел
+[  24]    02B5: 74 06                                 je skip_space                   ; Если пробел, переходим к следующему символу
+[  25]        :                                       
+[  26]        :                                       ; Если это не пробел и не конец строки, начинаем считывать имя файла
+[  27]    02B7: 88 05                                 mov [di], al                    ; Копируем символ в буфер
+[  28]    02B9: 47                                    inc di                          ; Увеличиваем указатель
+[  29]    02BA: 41                                    inc cx                          ; Увеличиваем счетчик
+[  30]    02BB: EB F0                                 jmp next_param                  ; Переходим к следующему символу
+[  31]        :                                       
+[  32]    02BD:                                       skip_space:
+[  33]    02BD: 46                                    inc si                          ; Пропускаем пробел
+[  34]    02BE: EB ED                                 jmp next_param                  ; Переходим к следующему символу
+[  35]        :                                       
+[  36]    02C0:                                       param_ended:
+[  37]    02C0: C6 05 00                              mov byte ptr [di], 0           ; Нуль-терминатор для строки
+[  38]    02C3: BF 00 00                              mov di, offset filename
+[  39]        :                                       
+[  40]        :                                       ; Вывод имени файла перед его открытием (отладка)
+[  41]    02C6: BA 00 00                              mov dx, offset filename
+[  42]    02C9: B4 09                                 mov ah, 09h
+[  43]    02CB: CD 21                                 int 21h                        ; Вывод имени файла для отладки
+[  44]        :                                       
+[  45]        :                                       ; Открытие текстового файла
+[  46]    02CD: B4 3D                                 mov ah, 3Dh                    ; Функция открытия файла
+[  47]    02CF: BA 00 00                              lea dx, filename                ; Имя файла
+[  48]    02D2: B0 00                                 mov al, 0                      ; Открыть только на чтение
+[  49]    02D4: CD 21                                 int 21h
+[  50]    02D6: 72 1D                                 jc open_error                   ; Проверка на ошибку
+[  51]    02D8: 8B D8                                 mov bx, ax                     ; Хранение дескриптора файла
+[  52]        :                                       
+[  53]        :                                       ; Чтение имени программы из файла
+[  54]    02DA: B4 3F                                 mov ah, 3Fh                    ; Функция чтения из файла
+[  55]    02DC: BA 20 00                              lea dx, program_name            ; Буфер для имени программы
+[  56]    02DF: B9 00 01                              mov cx, 256                     ; Максимальная длина имени
+[  57]    02E2: CD 21                                 int 21h
+[  58]    02E4: 72 18                                 jc read_error                   ; Проверка на ошибку
+[  59]        :                                       
+[  60]        :                                       ; Добавление нуль-терминатора
+[  61]    02E6: C6 05 00                              mov byte ptr [di], 0           ; Используем di для записи нуль-терминатора
+[  62]        :                                       
+[  63]        :                                       ; Запуск программы
+[  64]    02E9: B8 00 4B                              mov ax, 4B00h                  ; Функция запуска программы
+[  65]    02EC: BA 20 00                              lea dx, program_name            ; Имя программы для запуска
+[  66]    02EF: CD 21                                 int 21h
+[  67]        :                                       
+[  68]        :                                       ; Проверка на ошибки
+[  69]    02F1: 72 14                                 jc catch_run_error
+[  70]        :                                       
+[  71]    02F3: EB 1B                                 jmp exit
+[  72]        :                                       
+[  73]    02F5:                                       open_error:
+[  74]        :                                       ; Обработка ошибки открытия файла
+[  75]    02F5: BA 20 01                              mov dx, offset open_error_msg
+[  76]    02F8: B4 09                                 mov ah, 09h
+[  77]    02FA: CD 21                                 int 21h
+[  78]    02FC: EB 12                                 jmp exit
+[  79]        :                                       
+[  80]    02FE:                                       read_error:
+[  81]        :                                       ; Обработка ошибки чтения
+[  82]    02FE: BA 4A 01                              mov dx, offset read_error_msg
+[  83]    0301: B4 09                                 mov ah, 09h
+[  84]    0303: CD 21                                 int 21h
+[  85]    0305: EB 09                                 jmp exit
+[  86]        :                                       
+[  87]    0307:                                       catch_run_error:
+[  88]        :                                       ; Обработка ошибки при запуске
+[  89]    0307: BA 72 01                              mov dx, offset run_error_msg
+[  90]    030A: B4 09                                 mov ah, 09h
+[  91]    030C: CD 21                                 int 21h
+[  92]    030E: EB 00                                 jmp exit
+[  93]        :                                       
+[  94]    0310:                                       exit:
+[  95]    0310: B8 00 4C                              mov ax, 4C00h                  ; Завершение программы
+[  96]    0313: CD 21                                 int 21h
+[  97]        :                                       
+[  98]        :                                       end start
+[  99]        :                                       
+ 
+===================================================================================================
+ 
+EXE HEADER - bytes from 0000 to 01FF inclusive.
+
+0000: 4D      -   exe signature (M)
+0001: 5A      -   exe signature (Z)
+0002: 15      -   bytes on last page (l.byte)
+0003: 01      -   bytes on last page (h.byte)
+0004: 03      -   512 byte pages in file (l.byte)
+0005: 00      -   512 byte pages in file (h.byte)
+0006: 00      -   relocations (l.byte)
+0007: 00      -   relocations (h.byte)
+0008: 20      -   paragraphs in header (l.byte)
+0009: 00      -   paragraphs in header (h.byte)
+000A: 00      -   minimum memory (l.byte)
+000B: 00      -   minimum memory (h.byte)
+000C: FF      -   maximum memory (l.byte)
+000D: FF      -   maximum memory (h.byte)
+000E: 00      -   SS - stack segment (l.byte)
+000F: 00      -   SS - stack segment (h.byte)
+0010: 00      -   SP - stack pointer (l.byte)
+0011: 01      -   SP - stack pointer (h.byte)
+0012: 0D      -   check sum (l.byte)
+0013: B0      -   check sum (h.byte)
+0014: 00      -   IP - instruction pointer (l.byte)
+0015: 00      -   IP - instruction pointer (h.byte)
+0016: 2A      -   CS - code segment (l.byte)
+0017: 00      -   CS - code segment (h.byte)
+0018: 1E      -   relocation table adress (l.byte)
+0019: 00      -   relocation table adress (h.byte)
+001A: 00      -   overlay number (l.byte)
+001B: 00      -   overlay number (h.byte)
+001C: 01      -   signature (l.byte)
+001D: 00      -   signature (h.byte)
+001E to 01FF  -   reserved relocation area  (00) 
+
+
+
+
+===================================================================================================

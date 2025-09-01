@@ -1,0 +1,8 @@
+ LDX #$1F0
+ TXS 
+ PSHA
+ PSHA 
+ PSHA
+ TSX
+
+ 

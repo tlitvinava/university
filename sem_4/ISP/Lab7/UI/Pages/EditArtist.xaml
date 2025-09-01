@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:UI.ViewModels"
+             x:Class="UI.Pages.EditArtist"
+             x:DataType="models:EditArtistViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="EditArtist">
+
+    <VerticalStackLayout>
+        <Label Text="Editing artist page:" FontSize="Large"/>
+        <Entry x:Name="ArtistName" Text="{x:Binding Artist.Name}"/>
+        <DatePicker x:Name="ArtistBirthDay" Date="{Binding Artist.BirthDay}"/>
+        <Entry x:Name="ArtistGenre" Text="{Binding Artist.Genre}"/>
+
+        <Button Text="Update">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="Clicked"
+                    Command="{Binding EditArtistCommand}"/>
+            </Button.Behaviors>
+        </Button>
+
+        <Label x:Name="SuccessMessage" Text="Artist was updated!" IsVisible="{Binding IsSuccess}"/>
+    </VerticalStackLayout>
+</ContentPage>

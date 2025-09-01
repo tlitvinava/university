@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pLZrU6QKXU+rnKTzKDVoGZsoMANHC/x2aE2x4SRPDxANHga00U+qUdQjI4T0YVVRaeVSfvrfSZNUmnyy75ISeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tlitv\\!Labs\\Lab8\\Lab_8\\Lab_8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tlitv\\.nuget\\packages\\lorem.universal.net\\4.0.80\\lorem.universal.net.4.0.80.nupkg.sha512"
+  ],
+  "logs": []
+}

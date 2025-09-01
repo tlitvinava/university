@@ -1,0 +1,1 @@
+C:\Users\tlitv\source\university_labs\sem_4\ISP\Testing\MauiApp1\MauiApp1.csproj;x64

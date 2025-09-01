@@ -1,0 +1,7 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+  C000 86 00        ldaa #0
+  C002 B7 80 00     staa $8000
+  C005 CE 80 00     ldx #$8000
+  C008 1C 00 30     bset 0,x,#%00110000
+  C00B B6 80 00     ldaa $8000

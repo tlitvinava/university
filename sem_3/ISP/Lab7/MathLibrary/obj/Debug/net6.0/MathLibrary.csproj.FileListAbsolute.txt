@@ -1,0 +1,33 @@
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.deps.json
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfoInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfo.cs
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\refint\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\_253503_Studenichnik_Lab7\MathLibrary\obj\Debug\net6.0\ref\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.deps.json
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfoInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfo.cs
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\refint\MathLibrary.dll
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.pdb
+C:\Users\Nikita\source\repos\C# labs\Sem 3\Lab7\MathLibrary\obj\Debug\net6.0\ref\MathLibrary.dll
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.deps.json
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.dll
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\bin\Debug\net6.0\MathLibrary.pdb
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfoInputs.cache
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.AssemblyInfo.cs
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.dll
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\refint\MathLibrary.dll
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\MathLibrary.pdb
+C:\Users\tlitv\!Labs\Lab7\MathLibrary\obj\Debug\net6.0\ref\MathLibrary.dll

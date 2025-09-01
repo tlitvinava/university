@@ -1,0 +1,112 @@
+.model tiny
+.code
+org 100h
+
+start:
+call read_commandline
+mov sp, program_length + 100h + 200h
+
+; Устанавливаем начальные значения для EPB
+mov ax, cs
+mov word ptr EPB + 4, ax
+mov word ptr EPB + 8, ax
+mov word ptr EPB + 0Ch, ax
+
+; Начинаем цикл считывания и запуска программ
+lea si, filename
+next_program:
+; Открываем файл
+mov ax, 3D01h         ; Открытие файла для чтения
+lea dx, filename
+int 21h
+mov bx, ax            ; Дескриптор файла
+jc open_error
+
+; Считываем имя программы
+mov ah, 3Fh          ; Чтение из файла
+lea dx, program_path  ; Путь к программе
+mov cx, 100          ; Читаем до 100 байт
+int 21h
+jc read_error
+
+; Проверяем, считали ли строку
+cmp ax, 0
+je no_more_programs   ; Если ничего не считали, выходим
+
+; Запускаем программу
+mov ax, 4B00h
+mov dx, offset program_path
+mov bx, offset EPB
+int 21h
+jc run_error
+
+; Переходим к следующему имени программы
+jmp next_program
+
+no_more_programs:
+; Закрываем файл, если был открыт
+mov ah, 3Eh
+int 21h
+
+exit:
+mov ax, 4C00h
+int 21h
+
+open_error:
+mov dx, offset open_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+read_error:
+mov dx, offset read_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+run_error:
+mov dx, offset run_error_msg
+mov ah, 09h
+int 21h
+jmp exit
+
+proc read_commandline
+mov si, 80h
+xor cx, cx
+mov cl, es:[si]
+add si, 2
+lea di, filename
+read_loop:
+mov al, es:[si]
+cmp al, 0Dh
+jne write_symbol
+mov al, 0
+stosb
+inc si
+loop read_loop
+jmp end_read
+write_symbol:
+stosb
+inc si
+loop read_loop
+end_read:
+ret
+endp
+
+filename db 100 dup(0)     ; Массив для хранения имен программ
+program_path db 100 dup(0) ; Путь к программе
+open_error_msg db 'Error: Could not open the specified file.$'
+read_error_msg db 'Error: Could not read the program name.$'
+run_error_msg db 'Error: Could not run the specified program.$'
+
+EPB dw 0000
+dw offset commandline, 0
+dw 005Ch, 0, 006Ch, 0
+commandline db 125
+db " /?"
+program_length equ $ - start
+end start
+
+
+
+; [SOURCE]: C:\Users\tlitv\source\repos\Kprog\Lab6\again.asm

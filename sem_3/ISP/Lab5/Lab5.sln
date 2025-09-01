@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5", "Lab5\Lab5.csproj", "{70759EFB-EECC-4264-B458-C91A23A0D66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5.Domain", "Lab5.Domain\Lab5.Domain.csproj", "{C042FA9F-B28A-4D49-9C92-B796EB445D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializerLib", "SerializerLib\SerializerLib.csproj", "{FD591342-5D92-48EA-B222-A7E2B4643FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70759EFB-EECC-4264-B458-C91A23A0D66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70759EFB-EECC-4264-B458-C91A23A0D66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70759EFB-EECC-4264-B458-C91A23A0D66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70759EFB-EECC-4264-B458-C91A23A0D66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C042FA9F-B28A-4D49-9C92-B796EB445D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C042FA9F-B28A-4D49-9C92-B796EB445D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C042FA9F-B28A-4D49-9C92-B796EB445D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C042FA9F-B28A-4D49-9C92-B796EB445D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD591342-5D92-48EA-B222-A7E2B4643FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD591342-5D92-48EA-B222-A7E2B4643FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD591342-5D92-48EA-B222-A7E2B4643FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD591342-5D92-48EA-B222-A7E2B4643FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {598D8F5C-3084-447A-A680-069C355A38C2}
+	EndGlobalSection
+EndGlobal

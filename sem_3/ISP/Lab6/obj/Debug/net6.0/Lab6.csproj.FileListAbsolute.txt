@@ -1,0 +1,14 @@
+C:\Users\tlitv\!Labs\Lab6\bin\Debug\net6.0\Lab6.exe
+C:\Users\tlitv\!Labs\Lab6\bin\Debug\net6.0\Lab6.deps.json
+C:\Users\tlitv\!Labs\Lab6\bin\Debug\net6.0\Lab6.runtimeconfig.json
+C:\Users\tlitv\!Labs\Lab6\bin\Debug\net6.0\Lab6.dll
+C:\Users\tlitv\!Labs\Lab6\bin\Debug\net6.0\Lab6.pdb
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfo.cs
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.dll
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\refint\Lab6.dll
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.pdb
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\Lab6.genruntimeconfig.cache
+C:\Users\tlitv\!Labs\Lab6\obj\Debug\net6.0\ref\Lab6.dll

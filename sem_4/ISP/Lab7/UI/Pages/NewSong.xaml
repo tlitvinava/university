@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="UI.Pages.NewSong"
+             x:DataType="models:NewSongViewModel"
+             Title="NewSong">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+        EventName="Loaded"
+        Command="{Binding UpdateGroupListCommand}" />
+    </ContentPage.Behaviors>
+    
+    <VerticalStackLayout>
+        <Entry Text="{Binding Song.Name}" Placeholder="Name"/>
+        <Entry Text="{Binding Song.Duration}" Placeholder="Duration"/>
+        <Entry Text="{Binding Song.Description}" Placeholder="Description"/>
+
+        <Picker ItemsSource="{Binding Artists}" 
+        SelectedItem="{Binding SelectedArtist}" 
+        Title="Select artist">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior
+                EventName="SelectedIndexChanged"
+                Command="{Binding UpdateMemberListCommand }" />
+            </Picker.Behaviors>
+        </Picker>
+
+        <Button Text="Update">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior
+            EventName="Clicked"
+            Command="{Binding CreateSongCommand}"/>
+            </Button.Behaviors>
+        </Button>
+
+        <Label x:Name="SuccessMessage" Text="Song was created!" IsVisible="{Binding IsSuccess}"/>
+    </VerticalStackLayout>
+</ContentPage>

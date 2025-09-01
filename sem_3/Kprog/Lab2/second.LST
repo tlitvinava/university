@@ -1,0 +1,38 @@
+  ADDR B1 B2 B3 B4 C:\Users\tlitv\source\repos\КПрог\Lab2\second.   PAGE       1
+
+                    org $8000
+  8000 CE 82 00     ldx #$8200
+  8003 18 CE 82 1F  ldy #$821f
+  8007 18 FF 82 20  sty $8220
+  800B 86 11        ldaa #%00010001
+  800D B7 82 21     staa $8221
+
+                   metka
+  8010 B6 82 21     ldaa $8221
+  8013 A4 00        anda 0,x
+  8015 B1 82 21     cmpa $8221
+  8018 27 06        beq and_1
+  801A 1D 00 02     bclr 0,x,#%00000010
+  801D 7E 80 26     jmp continue
+
+                   and_1
+  8020 1C 00 02     bset 0,x,#%00000010
+  8023 7E 80 26     jmp continue
+
+                   continue
+  8026 08           inx
+  8027 BC 82 20     cpx $8220
+  802A 2F E4        ble metka
+
+
+
+
+
+
+
+
+  Symbol Table 
+
+  AND_1              8020
+  CONTINUE           8026
+  METKA              8010

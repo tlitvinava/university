@@ -1,0 +1,10 @@
+  ADDR B1 B2 B3 B4 C:\Users\tlitv\source\repos\КПрог\Lab1\task1.asm PAGE       1
+
+  C000 CE 01 F0     LDX #$1F0
+  C003 35           TXS
+  C004 36           PSHA
+  C005 36           PSHA
+  C006 36           PSHA
+  C007 30           TSX
+
+

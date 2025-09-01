@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<computers>
+  <computer computerId="1" computerIssuer="HP">
+    <winchester winchesterId="1" winchesterModel="ASUS" />
+  </computer>
+  <computer computerId="2" computerIssuer="APPLE">
+    <winchester winchesterId="20" winchesterModel="INTEL" />
+  </computer>
+  <computer computerId="3" computerIssuer="DELL">
+    <winchester winchesterId="512" winchesterModel="MOTOROLA" />
+  </computer>
+  <computer computerId="4" computerIssuer="XIAOMI">
+    <winchester winchesterId="82" winchesterModel="GOOGLE" />
+  </computer>
+  <computer computerId="5" computerIssuer="LENOVO">
+    <winchester winchesterId="40" winchesterModel="GIGABYTE" />
+  </computer>
+  <computer computerId="6" computerIssuer="ACER">
+    <winchester winchesterId="240" winchesterModel="RADEON" />
+  </computer>
+</computers>

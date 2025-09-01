@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab2.Entities.Bank">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Lab2.Entities.Bank.AddClientDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Bank.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAhAAAAEAAAABACAAAABAA=</HashCode>
+      <FileName>Entities\Bank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="clients" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Lab2.Entities.Client">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Lab2.Entities.Client.AddDepositDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQAAAAIBAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="deposits" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Lab2.Entities.Deposit">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAAAIAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Deposit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

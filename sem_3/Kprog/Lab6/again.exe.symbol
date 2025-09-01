@@ -1,0 +1,24 @@
+< THE SYMBOL TABLE >  again.exe  --  emu8086 assembler version: 4.05 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+FILENAME                 	00000     	1         	VAR       	data      
+PROGRAM_NAME             	00020     	1         	VAR       	data      
+OPEN_ERROR_MSG           	00120     	1         	VAR       	data      
+READ_ERROR_MSG           	0014A     	1         	VAR       	data      
+RUN_ERROR_MSG            	00172     	1         	VAR       	data      
+CODE                     	0002A     	-5        	SEGMENT   	(ITSELF)  
+START                    	00000     	-1        	LABEL     	code      
+NEXT_PARAM               	0000D     	-1        	LABEL     	code      
+SKIP_SPACE               	0001D     	-1        	LABEL     	code      
+PARAM_ENDED              	00020     	-1        	LABEL     	code      
+OPEN_ERROR               	00055     	-1        	LABEL     	code      
+READ_ERROR               	0005E     	-1        	LABEL     	code      
+CATCH_RUN_ERROR          	00067     	-1        	LABEL     	code      
+EXIT                     	00070     	-1        	LABEL     	code      
+===================================================================================================
+[ 15.12.2024  --  1:33:05 ] 
+< END >
+ 

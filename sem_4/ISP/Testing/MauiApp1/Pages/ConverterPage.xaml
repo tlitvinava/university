@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTestApp.Pages.ConverterPage"
+             Title="ConverterPage"
+             Loaded="ConverterPage_Loaded">
+    <Grid ColumnDefinitions="*,*,*"
+          RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*,*"
+          ColumnSpacing="5"
+          Padding="5">
+        <DatePicker x:Name="DatePicker_name"
+                Grid.Column="1"
+                Grid.Row="0"
+                Format="yyyy-MM-dd"
+                DateSelected="DataPicker_DateSelected"/>
+
+        <Label x:Name="RUB"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Text="RUB"/>
+        <Label x:Name="rub_OfficialRat"
+               Grid.Row="2"
+               Grid.Column="1"/>
+
+        <Label x:Name="EUR"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Text="EUR"/>
+        <Label x:Name="eur_OfficialRat"
+               Grid.Row="3"
+               Grid.Column="1"/>
+
+        <Label x:Name="USD"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Text="USD"/>
+        <Label x:Name="usd_OfficialRat"
+              Grid.Row="4"
+              Grid.Column="1"/>
+
+        <Label x:Name="CHF"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Text="CHF"/>
+        <Label x:Name="chf_OfficialRat"
+              Grid.Row="5"
+              Grid.Column="1"/>
+
+        <Label x:Name="CNY"
+                   Grid.Row="6"
+                   Grid.Column="0"
+                   Text="CNY"/>
+        <Label x:Name="cny_OfficialRat"
+              Grid.Row="6"
+              Grid.Column="1"/>
+
+        <Label x:Name="GBP"
+                   Grid.Row="7"
+                   Grid.Column="0"
+                   Text="GBP"/>
+        <Label x:Name="gbp_OfficialRat"
+              Grid.Row="7"
+              Grid.Column="1"/>
+
+        <HorizontalStackLayout Grid.Row="9"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Spacing="20">
+            <Label Text="from "/>
+            <Label Text="BYN"/>
+            <Label Text="to "/>
+            <Picker x:Name="CurrencyPicker_TO"
+                    ItemDisplayBinding="{Binding Cur_Abbreviation}"/>
+        </HorizontalStackLayout>
+
+        <Entry x:Name="FromBYN"
+               Grid.Row="10"
+               Grid.Column="0"
+               Text="0"/>
+        <Entry x:Name="ResultCUR"
+               Grid.Row="10"
+               Grid.Column="1"
+               Text="0"
+               IsEnabled="False"/>
+        <Button x:Name="CountButtonFROMBYN"
+                Grid.Row="10"
+                Grid.Column="2"
+                Text="Convert"
+                Clicked="CountButtonFROMBYN_Clicked"/>
+
+
+        <HorizontalStackLayout Grid.Row="11"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"
+                       Spacing="20">
+            <Label Text="from"/>
+            <Picker x:Name="CurrencyPicker_FROM"
+                    ItemDisplayBinding="{Binding Cur_Abbreviation}"/>
+            <Label Text="to"/>
+            <Label Text="BYN"/>
+        </HorizontalStackLayout>
+
+        <Entry x:Name="FromCUR"
+               Grid.Row="12"
+               Grid.Column="0"
+               Text="0"/>
+        <Entry x:Name="ResultBYN"
+               Grid.Row="12"
+               Grid.Column="1"
+               Text="0"
+               IsEnabled="False"/>
+        <Button x:Name="CountButtonFROMCUR"
+                Grid.Row="12"
+                Grid.Column="2"
+                Text="Convert"
+                Clicked="CountButtonFROMCUR_Clicked"/>
+
+    </Grid>
+</ContentPage>
