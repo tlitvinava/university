@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.navbar-links a, .navbar-auth a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-links a:hover, .navbar-auth a:hover {
+    text-decoration: underline;
+}
+
+.navbar-auth span {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c82333;
+}

@@ -1,0 +1,3 @@
+﻿  chat_client.cpp
+C:\Users\tlitv\source\university_labs\sem_5\OSiSP\LR5\ChatClient\chat_client.cpp(58,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  ChatClient.vcxproj -> C:\Users\tlitv\source\university_labs\sem_5\OSiSP\LR5\x64\Debug\ChatClient.exe

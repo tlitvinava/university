@@ -1,0 +1,104 @@
+﻿  Lab1.cpp
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(12,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,9): error C2065: movq: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm0"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,14): error C2065: mm0: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,22): error C2760: синтаксическая ошибка: непредвиденный элемент ";". Ожидается "{"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,24): error C2065: mm0: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(14,34): error C2059: синтаксическая ошибка: константа
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(15,24): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(15,34): error C2059: синтаксическая ошибка: константа
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(16,24): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(16,34): error C2059: синтаксическая ошибка: константа
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(20,29): error C2065: низ: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(20,36): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(20,38): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "байта"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(20,38): error C2065: байта: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(21,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(21,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(21,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm0"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(21,15): error C2065: mm0: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "punpckhbw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,9): error C2065: punpckhbw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm3"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,19): error C2065: mm3: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,24): error C2065: mm3: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,29): error C2065: верх: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,38): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,40): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "байта"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(22,40): error C2065: байта: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(23,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(23,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(23,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm3"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(23,15): error C2065: mm3: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(26,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "movq"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(26,9): error C2065: movq: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(26,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm4"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(26,14): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(26,19): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(27,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "punpcklbw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(27,9): error C2065: punpcklbw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(27,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm1"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(27,19): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(27,24): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(28,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(28,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(28,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm1"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(28,15): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(29,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "punpckhbw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(29,9): error C2065: punpckhbw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(29,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm4"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(29,19): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(29,24): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(30,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(30,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(30,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm4"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(30,15): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(33,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "movq"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(33,9): error C2065: movq: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(33,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm5"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(33,14): error C2065: mm5: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(33,19): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(34,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "punpcklbw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(34,9): error C2065: punpcklbw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(34,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm2"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(34,19): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(34,24): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(35,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(35,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(35,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm2"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(35,15): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(36,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "punpckhbw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(36,9): error C2065: punpckhbw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(36,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm5"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(36,19): error C2065: mm5: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(36,24): error C2065: mm5: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(37,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "psraw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(37,9): error C2065: psraw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(37,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm5"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(37,15): error C2065: mm5: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(40,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pmullw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(40,9): error C2065: pmullw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(40,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm1"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(40,16): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(40,21): error C2065: mm2: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(42,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pmullw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(42,9): error C2065: pmullw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(42,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm4"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(42,16): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(42,21): error C2065: mm5: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(45,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "paddw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(45,9): error C2065: paddw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(45,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm1"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(45,15): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(45,20): error C2065: mm0: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(46,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "paddw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(46,9): error C2065: paddw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(46,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm4"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(46,15): error C2065: mm4: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(46,20): error C2065: mm3: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(49,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "paddw"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(49,9): error C2065: paddw: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(49,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mm1"
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(49,15): error C2065: mm1: необъявленный идентификатор
+C:\Users\tlitv\source\university_labs\sem_5\AVS\Lab1\Lab1\Lab1.cpp(49,15): error C1003: число ошибок превышает 100; остановка компиляции

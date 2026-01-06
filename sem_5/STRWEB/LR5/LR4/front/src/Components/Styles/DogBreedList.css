@@ -1,0 +1,45 @@
+.dog-breeds-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.dog-breed-card {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.dog-breed-card:hover {
+    transform: scale(1.05);
+}
+
+.dog-breed-card h2 {
+    font-size: 20px;
+    margin: 16px;
+    color: #333;
+}
+
+.dog-breed-card p {
+    margin: 8px 16px;
+    font-size: 14px;
+    color: #555;
+}
+
+.dog-breed-stats {
+    margin: 8px 16px;
+}
+
+.dog-breed-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top: 1px solid #ddd;
+}

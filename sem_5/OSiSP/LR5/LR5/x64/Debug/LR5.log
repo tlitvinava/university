@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (LR5.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  chat_server.cpp
+C:\Users\tlitv\source\university_labs\sem_5\OSiSP\LR5\LR5\chat_server.cpp(16,47): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  LR5.vcxproj -> C:\Users\tlitv\source\university_labs\sem_5\OSiSP\LR5\x64\Debug\ChatServer.exe

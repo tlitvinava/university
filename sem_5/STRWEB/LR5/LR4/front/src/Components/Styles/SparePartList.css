@@ -1,0 +1,46 @@
+.spare-part-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.spare-part-card {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.spare-part-card:hover {
+    transform: scale(1.05);
+}
+
+.spare-part-card h2 {
+    font-size: 20px;
+    margin: 16px;
+    color: #333;
+}
+
+.spare-part-card p {
+    margin: 8px 16px;
+    font-size: 14px;
+    color: #555;
+}
+
+.spare-part-stock {
+    margin: 8px 16px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.spare-part-manufacturer {
+    margin: 8px 16px;
+    font-size: 13px;
+    color: #888;
+}

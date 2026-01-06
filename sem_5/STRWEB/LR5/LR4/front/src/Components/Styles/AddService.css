@@ -1,0 +1,41 @@
+.add-service-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-service-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.add-service-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-service-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.add-service-container input,
+.add-service-container textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.add-service-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-service-container button:hover {
+    background-color: #45a049;
+}

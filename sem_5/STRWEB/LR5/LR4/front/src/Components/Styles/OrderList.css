@@ -1,0 +1,39 @@
+.order-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.order-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: box-shadow 0.2s;
+}
+
+.order-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.order-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.order-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.order-status {
+    font-size: 14px;
+    font-weight: bold;
+    color: #28a745;
+}
